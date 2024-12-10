@@ -69,7 +69,6 @@ height: 161px;
 .section1 {
     width: 1248px;
     height: 681px;
-    background: green;
     margin: 0px 100px 0px 100px;
     display: flex;
 }
@@ -134,7 +133,6 @@ text-decoration-skip-ink: none;
     width: 1248px;
     height: auto;
     margin: 0 100px 0 100px;
-    background-color: red;
     display: flex;
 }
 
@@ -154,7 +152,6 @@ margin-top: 17px;
     width: 1248px;
     height: auto;
     margin: 0 100px 0 100px;
-    background-color: blue;
     display: grid;
 }
 
@@ -243,7 +240,6 @@ color: #280003;
     width: 1248px;
     height: auto;
     margin: 0 100px 0 100px;
-    background-color: yellow;
     display: grid;
 }
 
