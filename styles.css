@@ -1,0 +1,253 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: 'Fredoka', sans-serif;
+        margin: auto;
+max-width: 1440px;
+height: auto;
+}
+
+header {
+    width: 1440px;
+    display: flex;
+    background-color: aqua;
+height: 161px;
+}
+
+.logo {
+    width: 327px;
+    height: 91px;
+    margin: 40px 0px 0px 40px;
+}
+
+.d3 {
+    margin: 40px 0px 0px 16px;
+    width: 700px;
+    height: 91px;
+}
+
+.d3 {background: #ffffff;}
+.d3 form {
+  background: #ffffff;
+  width: 700px;
+  height: 91px;
+  border: 3px solid #848586;
+}
+.d3 input {
+    width: 600px;
+    height: 91px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.d3 button {
+    width: 40px;
+    height: 40px;
+  cursor: pointer;
+}
+/* .d3 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 32px;
+  color: #F9F0DA;
+} */
+
+.trio {
+    margin: 40px 0px 0px 21px;
+    padding: 0;
+}
+
+.section1 {
+    width: 1248px;
+    height: 681px;
+    background: green;
+    margin: 0px 100px 0px 100px;
+    display: flex;
+}
+
+.pic1 {
+    
+height: 681px;
+margin-left: 0;
+}
+
+.text1 {
+    margin: 0;
+}
+
+.section1 h1 {
+    margin: 75px 50px 0px 0px;
+    width: 391px;
+height: 175px;
+    font-family: Fredoka;
+font-size: 40px;
+font-weight: 600;
+line-height: 60.44px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #280003;
+}
+
+.section1 .desc {
+    width: 390px;
+    height: 100px;
+    margin: 41px 50px 0px 0px;
+    font-family: Fredoka;
+font-size: 32px;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.section1 button {
+    width: 328px;
+height: 80px;
+
+    margin: 180px 0px 0px 40px;
+    background-color:  #848586;
+    color: #ffffff;
+padding: auto;
+    font-family: Fredoka;
+font-size: 28px;
+font-weight: 600;
+line-height: 44px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.section2 {
+    width: 1248px;
+    height: auto;
+    margin: 0 100px 0 100px;
+    background-color: red;
+    display: flex;
+}
+
+
+
+.pics-sec {
+    display: flex;
+margin-top: 17px;
+}
+
+.pics-sec .img {
+    width: 40%;
+    height: 40%;
+}
+
+.section3 {
+    width: 1248px;
+    height: auto;
+    margin: 0 100px 0 100px;
+    background-color: blue;
+    display: grid;
+}
+
+.section3 .h21 {
+    margin: 94px 0px 0px 54px;
+    width: 410px;
+height: 64px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 77.45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #848586;
+}
+
+
+
+.section3 .the {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 54px;
+    
+}
+
+
+
+.section3 p {
+    width: 201px;
+    white-space: nowrap;
+    font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 48.41px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 25px;
+color: #280003;
+}
+
+.section3 .img1 {
+    width: 55%;
+
+    position: absolute;
+    margin: 130px 0px 0px 469px;
+}
+
+.section3 .img2 {
+    width: 33%;
+
+    position: absolute;
+    margin: 483px 0px 0px 0px;
+}
+
+.section3 .h22 {
+    margin: 100px 0px 0px 550px;
+    width: 410px;
+height: 64px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 77.45px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #848586;
+}
+ .section3 .about-text {
+    width: 630px;
+height: 289px;
+margin: 20px 0px 0px 550px;
+white-space: wrap;
+font-family: Inter;
+font-size: 30px;
+font-weight: 300;
+line-height: var(--DisplayLargeLineHeight);
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #280003;
+ }
+
+.section4 {
+    width: 1248px;
+    height: auto;
+    margin: 0 100px 0 100px;
+    background-color: yellow;
+    display: grid;
+}
+
+footer {
+    background: #848586;
+
+}
