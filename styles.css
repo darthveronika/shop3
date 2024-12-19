@@ -21,15 +21,20 @@ header {
     height: 161px;
 }
 
+.log {
+    margin: 40px 0px 0px 20px;
+}
+
 .logo {
     border: none;
     width: 327px;
     height: 91px;
-    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    object-fit: cover;
 }
 
 .d3 {
-    margin: 40px 0px 0px 0px;
+    margin: 40px 30px 0px 30px;
     width: 700px;
     height: 91px;
     background: #ffffff;
@@ -42,6 +47,8 @@ header {
     width: 700px;
     height: 91px;
     border: 3px solid #848586;
+    display: flex;
+    align-items: center;
 }
 
 .d3 input {
@@ -51,17 +58,30 @@ header {
     border: none;
     outline: none;
     background: transparent;
+    line-height: 25px;
+    font-size: 32px; /* Увеличиваем шрифт */
+    padding: 0 10px;
 }
 
 .d3 button {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    margin: 17px 0px 0px 30px;
+    /* margin: 17px 0px 0px 30px; */
+    margin: 0 10px 0 10px; /* Изменяем отступ для центрирования */
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.d3 button .search-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Подгоняем размер изображения под кнопку */
 }
 
 .trio {
-    margin: 40px 30px 0px 5px;
+    margin: 40px 30px 0px 0px;
     padding: 0;
 }
 
@@ -190,28 +210,45 @@ header {
 
 .pics-sec {
     display: flex;
-    margin-top: 17px;
-    position: relative;
+    margin: 17px 100px 0px 100px;
+    width: 1248px;
+    height: auto;
+    margin-bottom: 0;
 }
 
-.pics-sec .img {
-    display: block;
-    width: 40%;
-    height: 40%;
+.pics-sec .cont1{
+    width: 520px;
+    height: 312px;
+background-image: url(./images/furniture.png);
+background-size: cover;
+margin: 0px 0 0 80px;
 }
 
-.see {
-    display: flex;
-    margin: 20px 0px 0px 0px;
-    height: 37px;
+.pics-sec .cont2{
+    width: 520px;
+    height: 312px;
+background-image: url(./images/decor.png);
+background-size: cover;
+margin: 0px 0px 0 50px;
+}
+
+.pics-sec p {
+    padding-top: 105px;
+    width: 155px;
+    height: 39px;
     font-family: Inter;
     font-size: 32px;
     font-weight: 400;
     line-height: 38.73px;
+    text-align: center;
     text-underline-position: from-font;
-
-    text-decoration: none;
+    text-decoration-skip-ink: none;
     color: #FFFFFF;
+}
+
+.pics-sec a {
+text-decoration: underline;
+color: #FFFFFF;
 }
 
 
@@ -220,6 +257,14 @@ header {
     width: 1248px;
     height: auto;
     margin: 0 100px 0 100px;
+    display: grid;
+}
+
+.section31, .section32 {
+    display: flex;
+}
+
+.section311, .section321 {
     display: grid;
 }
 
@@ -237,16 +282,17 @@ header {
     color: #848586;
 }
 
-
+.section3 .krug {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
 
 .section3 .the {
     display: flex;
-    margin-top: 36px;
-    margin-left: 54px;
+    margin: 36px 0px 0px 54px;
 
 }
-
-
 
 .section3 p {
     width: 201px;
@@ -263,21 +309,19 @@ header {
 }
 
 .section3 .img1 {
-    width: 55%;
-
-    position: absolute;
-    margin: 130px 0px 0px 469px;
+    width: 60%;
+height: 60%;
+    margin: 130px 0px 0px 0px;
 }
 
 .section3 .img2 {
-    width: 33%;
-
-    position: absolute;
-    margin: 483px 0px 0px 0px;
+    width: 35%;
+height: 35%;
+    margin: 0px 0px 0px 62px;
 }
 
 .section3 .h22 {
-    margin: 100px 0px 0px 550px;
+    margin: 50px 0px 0px 50px;
     width: 410px;
     height: 64px;
     font-family: Inter;
@@ -293,7 +337,7 @@ header {
 .section3 .about-text {
     width: 630px;
     height: 289px;
-    margin: 20px 0px 0px 550px;
+    margin: 20px 0px 0px 50px;
     white-space: wrap;
     font-family: Inter;
     font-size: 30px;
@@ -357,7 +401,7 @@ header {
 }
 
 .section4 img {
-    margin: 0px 0px 0px 120px;
+    margin: 0px 0px 0px 20px;
 }
 
 .footer {
@@ -368,7 +412,7 @@ header {
 }
 
 .footer h2 {
-    margin: 20px 0px 25px 65px;
+    margin: 20px 0px 30px 65px;
     width: 205px;
     height: 44px;
     font-family: Inter;
@@ -386,11 +430,17 @@ header {
     width: 250px;
     height: 80px;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 43.57px;
+    line-height: 40px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
+}
+
+.footer a {
+    text-decoration: underline;
+    margin: 0;
+    color: #ffffff;
 }
