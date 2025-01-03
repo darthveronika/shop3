@@ -102,41 +102,73 @@ header {
     color: #280003;
 }
 
-
-.login-container {
-
-    margin-top: 30px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+.section2 {
+    display: flex;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #280003;
+.personal, .contact {
+    display: grid;
 }
 
-.login-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: black;
+.personal {
+    margin: 30px 0px 0px 35px;
+}
+
+.personal h2 {
     text-align: left;
+    margin-left: 0;
 }
 
-.login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
+.personal p {
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+    font-size: 20px;
 }
 
-.login-form button {
-    margin-top: 10px;
+.personal input {
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.rar {
+    width: 300px;
+    height: 30px;
+}
+
+.personal .choice {
+margin: 20px 0px 0px 0px;;
+    display: flex;
+}
+
+.contact {
+    width: 300px;
+    height: 290px;
+    margin: 30px 0px 0px 200px;
+}
+
+.contact h2 {
+    text-align: left;
+    margin: 0;
+    height: 29px;
+}
+
+.contact p {
+    margin: 20px 0px 0px 0px;
+    height: 24px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact input {
+    margin: 10px 0px 0px 0px;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.contact button {
+    
+    margin-top: 30px;
     width: 200px;
     height: 50px;
     background: #BAA898;
@@ -151,13 +183,22 @@ h2 {
     color: #280003;
 }
 
-.login-form button:hover {
-    background-color: #BAA898;
+.contact .su {
+    margin: 0;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.57px;
+    text-align: center;
 }
 
 .register-link p {
+    text-align: left;
+    margin-left: 0;
+    align-items: left;
     margin-top: 25px;
-    font-size: 14px;
+    font-size: 18px;
     color: #666666;
 }
 
@@ -166,9 +207,6 @@ h2 {
     text-decoration: none;
 }
 
-.register-link a:hover {
-    text-decoration: underline;
-}
 
 
 .footer {

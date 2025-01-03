@@ -103,71 +103,68 @@ header {
 }
 
 
-.login-container {
-
-    margin-top: 30px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+.section2 {
+    display: flex;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #280003;
+.personal, .contact {
+    display: grid;
 }
 
-.login-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: black;
+.personal {
+    margin: 30px 0px 0px 35px;
+}
+
+.personal h2 {
     text-align: left;
+    margin-left: 0;
 }
 
-.login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.login-form button {
-    margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    background: #BAA898;
-    font-family: Inter;
+.personal p {
+    margin: 20px 0px 0px 0px;
+    text-align: left;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 25.57px;
-    text-align: center;
-    cursor: pointer;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #280003;
 }
 
-.login-form button:hover {
-    background-color: #BAA898;
+.personal input {
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
 }
 
-.register-link p {
-    margin-top: 25px;
-    font-size: 14px;
-    color: #666666;
+.rar {
+    width: 300px;
+    height: 30px;
 }
 
-.register-link a {
-    color: #280003;
-    text-decoration: none;
+.personal .choice {
+margin: 20px 0px 0px 0px;;
+    display: flex;
 }
 
-.register-link a:hover {
-    text-decoration: underline;
+.contact {
+    width: 350px;
+    height: 170px;
+    margin: 30px 0px 0px 200px;
+}
+
+.contact h2 {
+    text-align: left;
+    margin: 0;
+    height: 29px;
+}
+
+.contact p {
+    margin: 20px 0px 0px 0px;
+    height: 24px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact input {
+    margin: 10px 0px 0px 0px;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
 }
 
 
