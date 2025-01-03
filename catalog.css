@@ -109,7 +109,7 @@ header {
 .menu {
     
     width: 300px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 20px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -237,6 +237,7 @@ text-align: center;
     color: #280003;
     margin: 10px 0;
     font-family: Inter;
+    text-align: center;
 
 }
 
