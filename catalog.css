@@ -245,6 +245,7 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Inter;
 }
 
 .card-button {
@@ -293,6 +294,83 @@ text-align: center;
 .card-favorite:hover svg {
     fill: #280003;
 }
+.card-favorite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.favorite-checkbox {
+    display: none; /* Скрыть сам чекбокс */
+}
+
+.card-favorite svg {
+    width: 20px;
+    height: 20px;
+    fill: #BAA898;
+    transition: fill 0.3s ease;
+object-fit: cover;}
+
+.favorite-checkbox:checked + svg {
+    fill: #280003; /* Красный цвет при нажатии */
+}
+
+.card-button {
+    background-color: #D9D9D9;
+    font-weight: 400;
+}
+
+.card-button,
+.card-favorite {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.card-button:hover,
+.card-favorite:hover {
+    background: #f5f5f5;
+    border-color: #bbb;
+}
+
+/* Обновленные стили для кнопок управления количеством */
+.card-quantity-btn {
+    background-color: #D9D9D9;
+    font-weight: 700;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+    min-width: 30px;
+    text-align: center;
+}
+
+.card-quantity-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.card-quantity {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.card-button.add-to-cart {
+    flex-grow: 1;
+    white-space: nowrap;
+}
+
 
 
 
